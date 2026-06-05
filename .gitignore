@@ -1,0 +1,31 @@
+# Lingkungan Virtual (Virtual Environment)
+.venv/
+venv/
+env/
+
+# File Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# File Rahasia & Kredensial
+.env
+secret.py
+
+# Dataset Mentah (SANGAT PENTING!)
+# Jangan pernah mem-push file data berukuran besar ke Git
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.sqlite
+*.db
+*.parquet
+
+# Folder khusus untuk menaruh data mentah lokal
+data/raw/
